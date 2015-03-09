@@ -17,11 +17,11 @@ public class ByteBit {
     }
     
     /**
-     * 
-     * @param b
-     * @param begin
-     * @param end
-     * @return
+     * byteの　begin から　end　まで　を0にする
+     * @param b     対象のbyte 
+     * @param begin beginIndex
+     * @param end   endIndex
+     * @return      begin~endまで0にしたbyte
      */
     public static byte clear(byte b, int begin, int end){
         if(begin > end){
@@ -45,11 +45,11 @@ public class ByteBit {
     }
     
     /**
-     * 
-     * @param b
-     * @param begin
-     * @param end
-     * @return
+     * bのbegin~endまでを取得する
+     * @param b     対象のbyte 
+     * @param begin beginIndex
+     * @param end   endIndex
+     * @return      begin~endまでを取得し、右に詰めたbyte
      */
     public static byte get(byte b, int begin, int end){
         if(begin > end){
