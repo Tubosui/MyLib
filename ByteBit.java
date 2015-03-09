@@ -3,14 +3,7 @@
 *
 */
 public class ByteBit {
-    
-    public static void main(String[] args){
-        byte b = 127;
-        System.out.println(b);
-        byte bc = get(b, 2, 5);
-        test(b);
-        test(bc);
-    }
+
     /**
      * nビット目を0にする
      * @param b　対象のbyte
